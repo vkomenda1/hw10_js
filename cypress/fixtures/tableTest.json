@@ -1,0 +1,40 @@
+[
+    {
+      "testData": {
+        "position": "top-right",
+        "title": "test title",
+        "content": "test content",
+        "time": "1000",
+        "type": "primary"
+      },
+      "expected": {
+        "icon": "email",
+        "title": "test title",
+        "content": "test content",
+        "color": "rgb(51, 102, 255)",
+        "position": {
+          "justifyContent": "flex-end",
+          "alignItems": "flex-start"
+        }
+      }
+    },
+    {
+      "testData": {
+        "position": "bottom-left",
+        "title": "test title",
+        "content": "test content",
+        "time": "1000",
+        "type": "success"
+      },
+      "expected": {
+        "icon": "checkmark",
+        "title": "test title",
+        "content": "test content",
+        "color": "rgb(0, 214, 143)",
+        "position": {
+          "justifyContent": "flex-start",
+          "alignItems": "flex-end"
+        }
+      }
+    }
+  ]

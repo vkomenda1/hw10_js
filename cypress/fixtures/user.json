@@ -1,0 +1,16 @@
+{
+    "firstName": "First_Name_test",
+    "lastName": "last_Name_test",
+    "email": "test1111@testmail.com",
+    "phone": "0981115522",
+    "fax": "380981115522",
+    "companyName": "Qalight",
+    "address1": "Khreschatyk St.1",
+    "address2": "Khreschatyk St.2",
+    "city": "Kyiv",
+    "postcode": "00001",
+    "countryid": "220",
+    "zoneId": "3490",
+    "loginName": "wktest",
+    "password": "123456"
+}
