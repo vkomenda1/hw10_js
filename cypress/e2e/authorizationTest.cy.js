@@ -3,6 +3,7 @@ import homePage from "../support/pages/HomePage";
 import loginPage from "../support/pages/LoginPage";
 import accountPage from "../support/pages/AccountPage";
 import user from "../fixtures/user.json"
+import { loginAPI } from "../support/helpers/authHelper";
 
 it("Authorization", () => {
   homePage.visit();
@@ -23,3 +24,8 @@ it("Authorization with invalid loginName", () => {
   //user.loginName = faker.animal.bear.name;
   login(user);
 });
+
+it.only("login with API", () => {
+  loginAPI(user);
+});
+
